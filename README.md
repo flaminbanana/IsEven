@@ -50,9 +50,8 @@ Integrating the Even Number Detector into your project requires careful attentio
 1. **Clone the Repository**:
    Obtain the source code by cloning the repository:
    ```bash
-   git clone https://github.com/yourusername/even-detector.git
+   git clone https://github.com/flaminbanana/IsEven.git
    ```
-   Note: Replace `yourusername` with the appropriate GitHub username. If the repository is hosted elsewhere, consult your version control system’s documentation.
 
 2. **Navigate to the Project Directory**:
    ```bash
@@ -64,12 +63,11 @@ Integrating the Even Number Detector into your project requires careful attentio
    ```bash
    pip install -r requirements.txt
    ```
-   If no `requirements.txt` exists, create an empty file to satisfy best practices.
 
 4. **Import the Module**:
    In your Python script, import the `isEven` function:
    ```python
-   from even_detector import isEven
+   from IsEven import isEven
    ```
 
 5. **Invoke the Function**:
